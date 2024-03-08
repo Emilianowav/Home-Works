@@ -3,115 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="stylesheet" href="reset.css">
     <title>Friends</title>
 </head>
-<body>
+<body class="fondo">
     <header>
-        <h1>Friends</h1>
-        <div>Inicio</div>
-        <div>Remeras</div>
+
+        <div class="header-container">
+
+            <div class="titulo">   
+                
+                <div class="div-logo">
+                    <img class="logo" src="Recursos/Recurso 4.svg" alt="logo">
+                </div>    
+            </div>
+            
+            <div class="menu">
+
+                <div class="button-menu">Inicio</div>
+
+                <div class="button-menu">Remeras</div>
+
+            </div>
+
+        </div>
+
     </header>
 
-    <hr>
+
 
     <Main>
-
-        <section>
-
-            <h2>Productos 1</h2>
-
-            <div>
-
-            
-
-                <img src="" alt="Producto 1">
-
-            
-
-            </div>
-
-            <h3>Precio</h3>
-
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae mollitia, ipsam dolorem facere itaque repudiandae ipsa error quis? Enim tempore architecto fugiat totam nobis maxime consectetur commodi tempora id delectus?</p>
-
-        </section>
-
-    <hr>
         
-        <section>
+        <div class="div-sectionproduct">
 
-            <h2>Productos 2</h2>
-
-            <div>
-
-            
-
-                <img src="" alt="Producto 2">
-
-        
-
-            </div>
-            
-            <h3>Precio</h3>
-
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae mollitia, ipsam dolorem facere itaque repudiandae ipsa error quis? Enim tempore architecto fugiat totam nobis maxime consectetur commodi tempora id delectus?</p>
-
-        </section>
-
-    <hr>
-
-        <section>
-
-        <h2>Nosotros</h2>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo optio nihil, error doloribus eos odit ut beatae, architecto adipisci hic eaque neque veritatis sequi incidunt dolores eligendi. Illo, quisquam a.</p>
-
-        </section>
-
-    <hr>
-
-        <section>
-
-            <h2>Contacto</h2>
-
-            <form action="" method="">
-
-                <ul>
-
-                    <li>
-
-                        <label for="nombre"></label>
-                        <input type="text" id="nombre" name="nombre" placeholder="Nombre">
-
-                    </li>
-
-                    <br>
+            <section  class="product-section">
                 
-                    <li>
+                <div>
 
-                        <label for="email"></label>
-                        <input type="email" name="email" id="email" placeholder="Email">
+                    <div class="product1">
 
-                    </li>
+                        <h2 class="title-product">Producto 1</h2>
 
-                    <br>
+                        <div class="img-product">
 
-                    <li>
+                            <img src="" alt="Producto 1">
 
-                        <label for="mensaje"></label>
-                        <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                        </div>
 
-                    </li>
+                        <h4 class="product-value">$5.000</h4>
 
-                </ul>
+                        <p class="p-product">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae mollitia, ipsam dolorem facere itaque repudiandae ipsa error quis? Enim tempore architecto fugiat totam nobis maxime consectetur commodi tempora id delectus?</p>
 
-             
+                    </div>
 
-            </form>
+                    
 
-        </section>
+                </div>
+
+
+        <hr>
+                
+                <div>
+
+                    <div class="product2">
+
+                        <h2 class="title-product">Producto 2</h2>
+
+                        <div class="img-product">
+
+                            
+                            <img src="Recursos/999993.jp"  alt="">
+
+                        </div>
+
+                        <h4 class="product-value">$5.000</h4>
+
+                        <p class="p-product">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae mollitia, ipsam dolorem facere itaque repudiandae ipsa error quis? Enim tempore architecto fugiat totam nobis maxime consectetur commodi tempora id delectus?</p>
+
+                    </div>
+
+                    
+
+                </div>
+
+
+            
+            </section>
+
+        </div>
+
+        <div class="div-section-nosotros">
+
+            <section class="section-nosotros">
+
+            <h2 class="titulo-nosotros">Nosotros</h2>
+
+            <p class="p-nosotros">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo optio nihil, error doloribus eos odit ut beatae, architecto adipisci hic eaque neque veritatis sequi incidunt dolores eligendi. Illo, quisquam a.</p>
+
+            </section>
+
+        </div>
 
     <hr>
+        <div class="div-section-contacto">
+
+            <section class="section-contacto">
+
+                <h2 class="tituloc-contacto">Contacto</h2>
+
+                <form action="" method="">
+
+                    <ul class="ul-contacto">
+
+                        <li class="li-contacto">
+
+                            <label for="nombre"></label>
+                            <input class="input-contacto" type="text" id="nombre" name="nombre" placeholder="Nombre">
+
+                        </li>
+
+                        <br>
+                    
+                        <li class="li-contacto">
+
+                            <label for="email"></label>
+                            <input class="input-contacto" type="email" name="email" id="email" placeholder="Email">
+
+                        </li>
+
+                        <br>
+
+                        <li>
+
+                            <label for="mensaje"></label>
+                            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+
+                        </li>
+
+                    </ul>
+
+                
+
+                </form>
+
+            </section>
+
+        </div>
+
         
 
     </Main>
@@ -119,10 +158,26 @@
 
     <footer>
 
-            <div><img src="" alt="Instagram"></div>
+        <div class="div-footer">
 
-            <div><img src="" alt="Email"></div>
-    
+            <div>
+
+                <a href="" class="footer-img">
+                    <img src="Recursos/instagram-svgrepo-com.svg" alt="instagram" class="s">
+                </a>
+
+            </div>
+
+            <div>
+
+                <a href="" class="footer-img">
+                    <img src="Recursos/email-svgrepo-com.svg" alt="Email" >
+                </a>
+
+            </div>
+
+        </div>
+
     </footer>
 
 
